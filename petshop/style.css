@@ -1,0 +1,74 @@
+.card ul a {
+
+	text-decoration: none;
+	color:black;
+}
+.fiyat {
+	width: 50px;
+	height:25px;
+	background-color: 	#CC6633;
+	text-decoration: none;
+	color:black;
+}
+.images {
+	width: 700px;
+	height: 350px;
+}
+.mainmenubtn {
+	background-color:black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding:8px;
+	margin-top:8px;
+}
+.mainmenubtn:hover {
+	background-color: brown;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-child {
+	display: none;
+	background-color: black;
+	min-width: 100px;
+}
+.dropdown-child a {
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown:hover .dropdown-child {
+	display: block;
+}
+.button{
+
+	background-color: #e67e22;
+
+	border: none;
+
+	color: white;
+
+	padding:5px 15px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	font-size: 16px;
+
+	margin: 4px 2px;
+
+	cursor: pointer;
+}
+.baslik {
+	width: 155px;
+	height:50px;
+	background-color: 		#339999;
+	text-decoration: none;
+	color:black;
+}
